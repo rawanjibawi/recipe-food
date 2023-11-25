@@ -1,0 +1,42 @@
+.nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid orange;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-li {
+    display: inline;
+    cursor: pointer;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.nav-li:hover {
+    color: orange;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px
+}
+
+.icon:hover {
+    color: orange;
+}

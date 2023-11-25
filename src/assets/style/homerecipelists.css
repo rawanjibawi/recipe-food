@@ -1,0 +1,65 @@
+.bg {
+    background-image: url('../images/home_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: wheat;
+}
+
+.title span {
+    font-family: 'Bitter', serif;
+}
+
+.container button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 15px;
+    background-color: yellowgreen;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.container button:hover {
+    background-color: transparent;
+    color: yellowgreen;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.see-more-btn {
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #efa26f;
+    transition: background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+    background-color: #fbc19a;
+}
